@@ -1,0 +1,38 @@
+baseURL = "https://daut.dev"
+languageCode = "en-us"
+title = "daut"
+theme = "cactus"
+
+[markup]
+defaultMarkdownHandler = "org"
+
+[params]
+description = "Hi I'm Bozidar Dautovic, sailboat captain and co-founder of [[https://www.godacode.com][godacode]]. This is place where I post my thoughts and projects."
+colortheme = "dark"
+mainSectionTitle = "Posts"
+mainSection = "posts"
+showAllPostsOnHomePage = false
+postsOnHomePage = 5
+showProjectsList = true
+projectsUrl = "https://www.github.com/daut"
+rss = true
+logo = ""
+
+[[params.social]]
+name = "github"
+link = "https://github.com/daut"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "Projects"
+url = "https://github.com/daut"
+weight = 3

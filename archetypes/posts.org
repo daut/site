@@ -1,0 +1,6 @@
+#+TITLE: {{ replace .File.ContentBaseName `-` ` ` | title }}
+#+DRAFT: true
+#+DATE: {{ .Date }}
+#+AUTHOR: Bozidar Dautovic
+#+TAGS[]: 
+

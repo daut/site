@@ -1,0 +1,10 @@
+#+TITLE: Personal blog and website 📚
+
+** How to build?
+#+begin_src shell
+hugo
+#+end_src
+** How to run development server?
+#+begin_src shell
+hugo server -D
+#+end_src

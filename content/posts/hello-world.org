@@ -1,0 +1,6 @@
+#+TITLE: Hello, World!
+#+DRAFT: true
+#+DATE: 2024-12-22T18:13:40+01:00
+#+AUTHOR: Bozidar Dautovic
+#+TAGS[]: 
+
