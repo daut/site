@@ -1,0 +1,21 @@
+#+TITLE: Becoming a Junior Software Engineer in the Age of AI
+#+DRAFT: false
+#+DATE: 2025-11-10T08:23:00+01:00
+#+AUTHOR: Bozidar Dautovic
+#+TAGS[]: learning, career, ai
+
+Obviously, there are a couple of important things to be stated before putting any words on the screen. One: no one can tell you exactly what the future is going to look like, and two: history is never an indicator of what comes, but it is the best we have to make a guess about what the future may look like.
+
+Think about the progression of ease of access to information throughout human history. Roughly in order and with random gaps in time, a human could obtain information in the following ways: by observing nature and learning from it, orally from others, by reading books, via internet, and now with AI-powered tools. You can see the pattern here, right? Each new way of obtaining information made it easier and faster to get the information you needed.
+
+When I started delving into software engineering as an undergrad student, the Internet, online forums, Stack Overflow, and search engines like Google were already widely used. This was my gateway to learning how to code, and I spent most of my time, when working on a problem, reading online documentation, watching tutorials, and asking questions on forums. Sure, books, university courses, and in-person mentorship were a base to build upon, but as I progressed in my studies, the former became my primary way of learning new concepts and solving problems.
+
+This effectively meant that time spent on research has significantly decreased compared to the pre-Internet era, when you had to rely solely on libraries, books, university courses, and mentors to help you solve the problem at hand.
+
+Following this same pattern, AI-powered tools represent the next step in this progression. When we compare internet-era research with it, we'll notice a similar pattern. The time to get the information has decreased even further.
+
+The important thing to bear in mind is that all these are just tools to help us, not a replacement for our own thinking and creativity. Naturally, things evolve and change, and our day-to-day may not look like it looked a few years ago, but the core principles of problem solving, critical thinking, and creativity remain the same.
+
+Try to think about how many more software engineers work with assembly, or even machine code, today compared to a few decades ago. You'll agree that the answer is: very few. All that got abstracted away with higher-level programming languages, frameworks, and libraries. Yet, the core principles of programming remain the same. You still need to understand how computers work, how to structure your code, and how to solve problems effectively.
+
+My advice to anyone looking to become a software engineer is to stop worrying about what the future holds and start focusing on solving problems and building projects that you care about. Pick up any tool at your disposal, and with time and practice, you'll understand what works and what doesn't. Tools will come and go, but our ability to think critically and solve problems will always be in demand.

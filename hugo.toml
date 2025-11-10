@@ -5,6 +5,8 @@ theme = "cactus"
 
 [markup]
 defaultMarkdownHandler = "org"
+  [markup.highlight]
+  style="tokyonight-night"
 
 [params]
 description = "Hi I'm Bozidar Dautovic, sailboat captain and co-founder of [[https://www.godacode.com][godacode]]. This is place where I post my thoughts and projects."
