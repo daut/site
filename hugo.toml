@@ -18,7 +18,8 @@ postsOnHomePage = 5
 showProjectsList = true
 projectsUrl = "https://www.github.com/daut"
 rss = true
-logo = ""
+logo = "/images/avatar.png"
+images = ["/images/avatar.png"]
 
 [[params.social]]
 name = "github"
