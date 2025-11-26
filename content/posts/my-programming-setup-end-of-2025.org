@@ -1,0 +1,56 @@
+#+TITLE: My Programming Setup at the End of 2025
+#+DRAFT: false
+#+DATE: 2025-11-26T10:59:47+01:00
+#+AUTHOR: Bozidar Dautovic
+#+TAGS[]: tools, emacs, ai-agents
+
+My programming setup often evolves, and at a very rapid pace these days thanks to the AI progress. Here's a snapshot of how things look for me at the end of 2025.
+
+High-level view of my setup:
+- Editor: Emacs with custom [[https://github.com/daut/dotfiles/blob/master/Emacs.org][configuration]]
+- Terminal Emulator: [[https://ghostty.org/][Ghostty]] and [[https://github.com/akermu/emacs-libvterm][vterm]]
+- AI-Assisted Coding: [[https://opencode.ai/][OpenCode]] and [[https://github.com/copilot-emacs/copilot.el][copilot.el]]
+- Keyboard: Corne split keyboard with [[https://github.com/daut/zmk-config-corne][a custom]] ZMK configuration
+- Mouse: Logitech MX Master 3
+- Machine: MacBook Pro
+
+* Editor
+I've been using Emacs for ~5 years now, and it serves me well for the most part. Before Emacs, I used VS Code, but wanted something more extensible—and I got it, along with some downsides.
+
+Packages that define my workflow:
+- *Org-mode* - for notes, task management, and writing (including this blog)
+- *Magit* - the best Git interface I've used
+- *Projectile* - project navigation and management
+- *Company-mode* - completion framework
+- *LSP-mode* - language server support (works well for some languages, frustrating for others)
+
+Most of these are a joy to work with and customize. The exception is LSP-mode—it gets the job done but can be finicky depending on the language. This is one of those Emacs trade-offs: incredible flexibility in some areas, rough edges in others.
+
+I've tried modal editing packages like Meow, but they never stuck. I'm comfortable with vanilla keybindings at this point.
+
+* Terminal Emulator
+As an Emacs user I don't need terminal that often, since packages like dired, magit, tramp, compilation-mode, etc. accomplish pretty much everything one can accomplish with terminal (sometimes even more), but newer developments in AI tooling often require terminal access, so having a good terminal emulator is more important nowadays.
+
+Because of that, for terminal emulation, I've recently switched to [[https://ghostty.org/][Ghostty]] from iTerm2. It's a modern terminal emulator, which offers a sleek UI and good performance, and it was an easy switch from iTerm2 and for the better. I would love to do everything inside Emacs, but Emacs's display engine just isn't well suited to support modern features required in many TUI apps, whether due to decades of technology behind it or a "you don't need a terminal" philosophy. Emacs community eventually catches up with solutions that are more in line with how things should work in Emacs, but while waiting for those things, Ghostty just complements my Emacs setup nicely.
+
+* AI Agent
+AI-assisted coding has always been a dream of mine. Sometimes I like the coding part, but too often, wrestling with tooling feels like doing side quests distracting me from the main quest. With that said, this part of my setup splits into two categories: AI-assisted completion and AI agent/chatbot.
+
+** AI-Assisted Completion
+For a while now I've been relying on Copilot with [[https://github.com/copilot-emacs/copilot.el][copilot.el]] package for Emacs. It works well for me, but with improvements in AI coding agents, I use it less and less, since I write less code manually these days, and I often find myself using AI agents to generate larger chunks of code, or even entire functions or modules.
+** AI Agent/Chatbot
+For the purpose of AI agent/chatbot, I've been using [[https://opencode.ai/][OpenCode]]. I mostly use Big Pickle (based on GLM 4.6) and Claude Sonnet 4.5 for programming tasks. I can ask questions, get explanations, and generate code. It integrates well with my workflow, and I often use it to help me understand complex concepts or generate boilerplate code.
+
+I use it mostly with their TUI, but sometimes I also run it using Emacs' [[https://github.com/xenodium/agent-shell][agent-shell]] package. `agent-shell` can do most things and in pure Emacs way, but not all. Currently it lacks model switching, commands, agents and similar. This package along with [[https://agentclientprotocol.com/overview/introduction][ACP]] which it uses, opens up a lot of possibilities for integrating AI agents into Emacs workflow. It still needs a lot of polishing though, but it's a promising development.
+
+* Keyboard and Mouse
+For a while I've been relying on a Corne 42-key ergonomic split keyboard and my custom ZMK configuration inspired by Miryoku layout, but adapted to my needs. Lately I've been looking into switching it for a more compact 36-key layout like [[https://keeb.supply/products/geist-totem][Totem]], but haven't made the switch yet.
+
+For mouse, I use Logitech MX Master 3. It's a solid choice for productivity, with good ergonomics and easy switching between devices.
+
+* Closing Thoughts
+My current programming setup at the end of 2025 is a blend of battle-tested tools like Emacs and newer developments in AI-assisted coding. As for what my future setup might look like, on a more immediate note, I'm eyeing a 36-key keyboard, as that's the optimal number of keys I actually use, and potentially integrating AI agents more deeply into my Emacs workflow as the tooling improves. 
+
+Looking further ahead, I'm really eager to see how software engineering evolves from here. One thing I'd love to see is local AI models on par with current cloud options. With all the niceties that AI tools bring, we shouldn't forget about the importance of privacy, censorship resistance, and the ability of an individual to customize tools to their needs.
+
+AI opens up possibilities for interacting with computers in entirely different ways. A scenario where a person does all their work from a phone with voice commands doesn't seem that far-fetched anymore. This is definitely something I'm very curious to see how my setup will look a year from now.
